@@ -1,0 +1,43 @@
+body {
+      background: #121212;
+      color: #f0f0f0;
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+    h1 {
+      text-align: center;
+      color: #00ff99;
+    }
+    textarea, input[type="file"], button {
+      width: 100%;
+      margin: 10px 0;
+      padding: 10px;
+      border-radius: 6px;
+      border: none;
+      font-size: 14px;
+    }
+    textarea {
+      min-height: 100px;
+    }
+    button {
+      background: #00ff99;
+      color: #000;
+      cursor: pointer;
+      font-weight: bold;
+    }
+    button:hover {
+      background: #00cc77;
+    }
+    .result {
+      margin-top: 20px;
+      padding: 15px;
+      background: #1e1e1e;
+      border-radius: 8px;
+    }
+    .result h2 {
+      color: #00ff99;
+      margin-top: 0;
+    }
+    ul {
+      padding-left: 20px;
+    }
